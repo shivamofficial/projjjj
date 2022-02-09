@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    font-family: "adobe-clean", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#container{
+  
+  width: 320px;
+  height: 550px;
+  background-color: aliceblue;
+  background-color: rgb(212, 205, 205);
+margin-left:40% ;
+align-items: center;
+position: absolute;
+top: 81px;
+
+
+}
+.head
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 35px;
+}
+.a1
+{
+    font-family: "adobe-clean", sans-serif;
+   font-size: xx-large;
+   font-weight: 800;
+   padding-left: 20px;
+   
+
+}
+.a2
+{
+    font-family: "adobe-clean", sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+  color: grey;
+position: relative;
+top: 10px;
+left: 10px;
+letter-spacing: 2px;
+}
+
+.material-icons
+{
+  color: red;
+  position: relative;
+  left: 50px;
+  
+
+  padding: 10px;
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;  
+    
+
+}
+.box1
+{
+ border: 1px solid red;
+padding-left: 10px;
+
+box-shadow: 2px 2px 5px grey;
+border-radius: 5px;
+margin-left: 17px;
+width: 283px;
+height: 55px;
+margin-top: 25px;
+
+
+}
+.box2
+{
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+margin-left: 17px;
+width: 290px;
+height: 55px;
+margin-top: 8px;
+}
+.box3
+{
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+margin-left: 17px;
+width: 290px;
+height: 55px;
+margin-top: 8px;
+}
+.box4
+{
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+margin-left: 17px;
+width: 290px;
+height: 55px;
+margin-top: 8px;
+}
+.box5
+{
+    border: 1px solid red;
+    box-shadow:   2px 2px 5px grey; #f8f7f4;
+  
+    border-radius: 5px;
+margin-left: 17px;
+width: 290px;
+height: 55px;
+margin-top: 8px;
+
+}
+
+@media  (max-width:767px)
+{
+  body
+    {
+        
+        width: 100%;
+    }
+#container{
+  
+  
+
+position: relative;
+right: 100px;
+
+
+ }
+
+}
+@media (max-width:480px)
+{
+   body {
+       
+       width: 100%;
+       height: auto;
+   }
+  
+}

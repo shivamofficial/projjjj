@@ -1,0 +1,106 @@
+
+.head
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+.main
+{
+    width: 336px;
+    height: 75%;
+     border: 0.5px solid rgb(245, 242, 242);
+     position: absolute;
+     left: 550px;
+     top: 81px;
+}
+.red-color
+{
+    font-size: 40px;
+    color: red;
+    position: relative;
+    top: 7px;
+}
+.paris
+{
+    position: relative;
+    left: 25px;
+    font-family:  "adobe-clean", sans-serif;
+    font-size: 40px;
+    bottom: 5px;
+}
+.text
+{
+display: flex;
+flex-direction: column;
+border: 1px solid red;
+margin-left: 40px;
+margin-right: 40px;
+height: 350px;
+width: 250px;
+border-radius: 15px;
+}
+.box1
+{
+    color: red;
+    font-family:"adobe-clean", sans-serif ;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 35px;
+}
+.hr
+{
+    position: relative;
+    width: 190px;
+    left: 30px;
+    overflow-x: hidden;
+    border: 0.5px solid black;
+
+}
+.del{
+    color: red;
+    font-family:"adobe-clean", sans-serif ;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 20px;
+    position: relative;
+    bottom: 45px;
+}
+.pt
+{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    bottom:45px ;
+}
+#ptask
+{
+    position: relative;
+    bottom: 45px;
+    right: 10px;
+}
+#abc
+{
+    position: relative;
+    left: 105px;
+    top: 28px;
+    font-size: 40px;
+
+}
+@media (max-width:767px)
+{
+    body {
+       height: 100%;
+       width: 100%;
+    }
+    .main 
+    {
+
+position: absolute;
+left: 150px;
+right: 0;
+height: auto;
+    }
+}
+  
